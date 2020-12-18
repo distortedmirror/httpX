@@ -13,6 +13,7 @@ export mo="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[
 export mb="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[\?]/);$_=$url[1];@qs=split(/[\&]/);$_=$qs[5];@nvp=split(/=/);print $nvp[1];'`"
 if [ "$xk" != "" ];
 then
+xk="`perl -e '$_=$ENV{\"xk\"};s/PLUS/\+/g;print $_;'`"
 xdotool key $xk
 if [ "$xt" != "" ];
 then

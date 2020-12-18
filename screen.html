@@ -4,6 +4,7 @@
     form { position:fixed; bottom:0px; right:0px; left: 0px; margin-bottom:24px;}
     input[type=image]{position:fixed;margin-bottom:24px;top:0px;left:0px;width:100%;bottom:0px;}
     select,input[type=text]{position:relative;display:inline;bottom:0px;}
+    div{position:fixed;right:6px;bottom:4px;font-size:16px;}
   </style>
   <body onload="document.getElementById('txt').focus();">
     <form action="/screen.html" method="GET">
@@ -16,13 +17,13 @@
 	      <option value="Escape">Escape</option>
 	      <option value="BackSpace">BackSpace</option>
 	      <option value="Del">Del</option>
-	      <option value="ctrl+a">ctrl+a</option>
-	      <option value="ctrl+c">ctrl+b</option>
-	      <option value="ctrl+c">ctrl+c</option>
-	      <option value="ctrl+d">ctrl+d</option>
-	      <option value="ctrl+e">ctrl+e</option>
-	      <option value="ctrl+e">ctrl+u</option>
-	      <option value="ctrl+z">ctrl+z</option>
+	      <option value="ctrlPLUSa">ctrl+a</option>
+	      <option value="ctrlPLUSb">ctrl+b</option>
+	      <option value="ctrlPLUSc">ctrl+c</option>
+	      <option value="ctrlPLUSd">ctrl+d</option>
+	      <option value="ctrlPLUSe">ctrl+e</option>
+	      <option value="ctrlPLUSu">ctrl+u</option>
+	      <option value="ctrlPLUSz">ctrl+z</option>
       </select>
       <select name="mouse">
 	      <option value="click">click</option>
@@ -33,6 +34,7 @@
 	      <option value="1">left</option>
 	      <option value="3">right</option>
       </select>
+      <div>httpX</div>
     </form>
   </body>
 </html>
