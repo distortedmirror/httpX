@@ -1,21 +1,27 @@
 <html>
   <style type="text/css">
-    body { background-color:black;color:gold;position:absolute;left:0px;width:auto;height:auto;overflow:scroll;}
+    body { background-color:black;color:gold;position:fixed;left:0px;width:auto;height:auto;overflow:scroll;}
+    form { position:fixed; bottom:0px; right:0px; left: 0px; margin-bottom:24px;}
+    input[type=image]{position:fixed;margin-bottom:24px;top:0px;left:0px;width:100%;bottom:0px;}
+    select,input[type=text]{position:relative;display:inline;bottom:0px;}
   </style>
-  <body>
+  <body onload="document.getElementById('txt').focus();">
     <form action="/screen.html" method="GET">
       <input src="/screen.jpg" type="image"/>
       <input name="txt" type="text"/>
-      <select name="key">
-	      <option value=""></option>
+      <select name="key" onchange="document.getElementById('txt').focus();">
+	      <option value="">
+	      </option>
 	      <option value="Return">Return</option>
 	      <option value="Escape">Escape</option>
 	      <option value="BackSpace">BackSpace</option>
 	      <option value="Del">Del</option>
-	      <option value="ctrl+c">ctrl+c</option>
 	      <option value="ctrl+a">ctrl+a</option>
-	      <option value="ctrl+e">ctrl+e</option>
+	      <option value="ctrl+c">ctrl+b</option>
+	      <option value="ctrl+c">ctrl+c</option>
 	      <option value="ctrl+d">ctrl+d</option>
+	      <option value="ctrl+e">ctrl+e</option>
+	      <option value="ctrl+e">ctrl+u</option>
 	      <option value="ctrl+z">ctrl+z</option>
       </select>
       <select name="mouse">
