@@ -1,4 +1,8 @@
   sudo apt-get install nmap
+  sudo apt-get install x11vnc
+  sudo apt-get install ncat
+  sudo apt-get install netcat
+  sudo apt-get install novnc
   sudo apt-get install xdotool
   sudo apt-get install imagemagick
   sudo apt-get install xvfb
