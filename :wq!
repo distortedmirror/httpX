@@ -1,0 +1,1 @@
+xwd -root -display :0 -out screen.xwd ; convert -quality 38 -strip screen.xwd screen.jpg

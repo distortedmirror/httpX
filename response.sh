@@ -10,16 +10,16 @@ export ym="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[
 export xt="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[\?]/);$_=$url[1];@qs=split(/[\&]/);$_=$qs[2];@nvp=split(/=/);print $nvp[1];'`"
 export xk="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[\?]/);$_=$url[1];@qs=split(/[\&]/);$_=$qs[3];@nvp=split(/=/);print $nvp[1];'`"
 export mo="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[\?]/);$_=$url[1];@qs=split(/[\&]/);$_=$qs[4];@nvp=split(/=/);print $nvp[1];'`"
-export mb="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[\?]/);$_=$url[1];@qs=split(/[\&]/);$_=$qs[5];@nvp=split(/=/);print $nvp[1];'`"
-if [ "$xk" != "" ];
-then
-xk="`perl -e '$_=$ENV{\"xk\"};s/PLUS/\+/g;print $_;'`"
-xdotool key $xk
 if [ "$xt" != "" ];
 then
 xt=$(urldecode "$xt")
 xdotool type "$xt"
 fi
+export mb="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[\?]/);$_=$url[1];@qs=split(/[\&]/);$_=$qs[5];@nvp=split(/=/);print $nvp[1];'`"
+if [ "$xk" != "" ];
+then
+xk="`perl -e '$_=$ENV{\"xk\"};s/PLUS/\+/g;print $_;'`"
+xdotool key $xk
 sleep 1
 ./capture.sh
 elif [ "$xt" != "" ];
