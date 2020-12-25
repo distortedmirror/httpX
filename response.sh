@@ -14,6 +14,8 @@ if [ "$xt" != "" ];
 then
 xt=$(urldecode "$xt")
 xdotool type "$xt"
+sleep 1
+./capture.sh
 fi
 export mb="`perl -e '$_=$ENV{\"input\"};@get=split(/ /);$_=$get[1];@url=split(/[\?]/);$_=$url[1];@qs=split(/[\&]/);$_=$qs[5];@nvp=split(/=/);print $nvp[1];'`"
 if [ "$xk" != "" ];
@@ -22,13 +24,8 @@ xk="`perl -e '$_=$ENV{\"xk\"};s/PLUS/\+/g;print $_;'`"
 xdotool key $xk
 sleep 1
 ./capture.sh
-elif [ "$xt" != "" ];
-then
-xt=$(urldecode "$xt")
-xdotool type "$xt"
-sleep 1
-./capture.sh
-elif [ "$xm" != "" ] &&  [ "$ym" != "" ];
+fi
+if [ "$xm" != "" ] &&  [ "$ym" != "" ];
 then
 xdotool mousemove $xm $ym $mo $mb
 sleep 1
