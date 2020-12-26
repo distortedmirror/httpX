@@ -16,7 +16,8 @@
   export DISPLAY=:0
   Xvfb :0 &
   sleep 2
-  mwm &
+  #mwm &
+  x-window-manager &
   xeyes &
   chromium --no-sandbox --user-data-dir ~ &
   xterm &

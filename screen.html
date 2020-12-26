@@ -1,6 +1,8 @@
 <html>
   <style type="text/css">
-    body { background-color:black;overflow:auto;color:gold;position:fixed;left:0px;width:auto;height:auto;overflow:scroll;}
+    body { background-color:black;overflow:auto;color:gold;position:fixed;left:0px;overflow:scroll;}
+    #mainOuterDIV{position:fixed;top:0;left:0;bottom:58;right:0;overflow:auto;}
+    #mainDIV {position:absolute;top:0;left:0;width:1280;height:1280;}
     form { position:fixed;bottom:0px; right:0px; left: 0px; margin-bottom:0px;}
     input[type=image]{position:fixed;top:0px;left:0px;}
     select,input[type=text]{position:relative;display:inline;bottom:0px;}
@@ -8,12 +10,16 @@
   </style>
   <body onload="document.getElementById('txt').focus();">
     <form action="/screen.html" method="GET">
+	    <div id="mainOuterDIV">	    		
+    <div id="mainDIV">
       <input src="/screen.jpg" type="image"/>
+      </div>
+      </div>
       <input id="txt" name="txt" type="text"/>
       <select name="key" onchange="document.getElementById('txt').focus();">
 	      <option value="">
 	      </option>
-	      <option value="Return" selected="true">Return</option>
+	      <option value="Return" >Return</option>
 	      <option value="Escape">Escape</option>
 	      <option value="BackSpace">BackSpace</option>
 	      <option value="Del">Del</option>
