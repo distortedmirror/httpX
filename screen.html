@@ -1,20 +1,16 @@
 <html>
   <style type="text/css">
-    body { background-color:black;overflow:auto;color:gold;position:fixed;left:0px;overflow:scroll;}
-    #mainOuterDIV{position:fixed;top:0;left:0;bottom:58;right:0;overflow:auto;}
-    #mainDIV {position:absolute;top:0;left:0;width:1280;height:1280;}
-    form { position:fixed;bottom:0px; right:0px; left: 0px; margin-bottom:0px;}
-    input[type=image]{position:fixed;top:0px;left:0px;}
+    body { background-color:black;overflow:auto;color:gold;}
+    #mainOuterDIV{position:absolute;top:0;left:0;width:100%;height:94%;overflow:scroll;}
+    #manDIV {position:absolute;top:0;left:0;width:1280;height:1280;}
+    form { }
+    input[type=image]{position:absolute;top:0px;left:0px;}
     select,input[type=text]{position:relative;display:inline;bottom:0px;}
     div{position:fixed;right:6px;bottom:4px;font-size:16px;}
   </style>
   <body onload="document.getElementById('txt').focus();">
     <form action="/screen.html" method="GET">
-	    <div id="mainOuterDIV">	    		
-    <div id="mainDIV">
       <input src="/screen.jpg" type="image"/>
-      </div>
-      </div>
       <input id="txt" name="txt" type="text"/>
       <select name="key" onchange="document.getElementById('txt').focus();">
 	      <option value="">
