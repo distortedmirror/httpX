@@ -19,7 +19,7 @@ sudo apt-get install kde-spectacle
 sudo dpkg --configure -a
   sudo /etc/init.d/x11-common start
   export DISPLAY=:0
-Xvfb :0 -screen 0 800x600x24&
+Xvfb :0 -listen tcp -screen 0 800x600x24&
   sleep 2
   mwm &
   #fvwm2 &
