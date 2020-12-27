@@ -16,6 +16,7 @@ yes | apt-get upgrade
   sudo apt-get install xfce4
   sudo apt-get install chromium
   sudo /etc/init.d/x11-common start
+sudo apt-get install `apt-cache search screen capture |head -1 |awk {print }`
   export DISPLAY=:0
 Xvfb :0 -screen 0 1024x768x24 &
   sleep 2
@@ -28,4 +29,4 @@ Xvfb :0 -screen 0 1024x768x24 &
   sleep 3
   xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg
   ./www.sh &
-
+./novnc.sh  
