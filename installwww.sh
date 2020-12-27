@@ -14,7 +14,7 @@
   sudo apt-get install chromium
   sudo /etc/init.d/x11-common start
   export DISPLAY=:0
-  Xvfb :0 &
+Xvfb :0 -screen 0 1600x1200x24 &
   sleep 2
   #mwm &
   x-window-manager &
