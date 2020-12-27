@@ -13,7 +13,7 @@ yes | apt-get upgrade
   sudo apt-get install xvkbd
   sudo apt-get install mwm
  sudo apt-get install x11-apps
- perl -e 'print "\n\n"' |sudo apt-get install xfce4
+ perl -e 'print "1\n1\n1\n"' |sudo apt-get install xfce4
   sudo apt-get install firefox-esr
   sudo /etc/init.d/x11-common start
 sudo apt-get install `apt-cache search screen capture |head -1 |awk {print }`
