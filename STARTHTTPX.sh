@@ -1,4 +1,4 @@
-apt-get update
-apt-get upgrade
+yes |apt-get update
+yes |apt-get upgrade
 yes | ./installwww.sh
 ./novnc.sh
