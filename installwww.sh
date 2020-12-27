@@ -13,7 +13,7 @@
   sudo apt-get install xvkbd
   sudo apt-get install mwm
  sudo apt-get install x11-apps
-sudo apt-get install fvwm-crystal
+#sudo apt-get install fvwm-crystal
   sudo apt-get install firefox-esr
 sudo apt-get install kde-spectacle
 sudo dpkg --configure -a
@@ -21,8 +21,8 @@ sudo dpkg --configure -a
   export DISPLAY=:0
 Xvfb :0 -screen 0 800x600x24&
   sleep 2
-  #mwm &
-  fvwm2 &
+  mwm &
+  #fvwm2 &
   #xfce4-session &
   #fvwm-crystal &
   sleep 2
