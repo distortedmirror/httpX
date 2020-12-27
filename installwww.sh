@@ -23,7 +23,7 @@ Xvfb :0 -screen 0 1024x1024x24 &
   sleep 2
   #mwm &
   #xfce4-session &
-  fvwm-crystal l&
+  fvwm-crystal &
   sleep 2
   xeyes &
   firefox-esr &
