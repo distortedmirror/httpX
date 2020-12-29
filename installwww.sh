@@ -12,10 +12,10 @@ apt-get install xvfb
  apt-get install x11-apps
  apt-get install x11-xserver-tools
   apt-get install firefox-esr
-  apt-get install mwm
+  #apt-get install mwm
   apt-get install cinnamon
-  apt-get install x11vnc
-  apt-get install novnc
+  #apt-get install x11vnc
+  #apt-get install novnc
 #apt-get install kde-spectacle
 dpkg --configure -a
   /etc/init.d/x11-common start
