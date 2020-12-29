@@ -20,5 +20,5 @@ dpkg --configure -a
   /etc/init.d/x11-common start
   export DISPLAY=:0
 #nohup Xvfb :0 -listen tcp -screen 0 800x600x24 &
-nohup Xvfb :0 -listen tcp -screen 0 1024x768 &
+nohup Xvfb :0 -listen tcp -screen 0 1024x768x24 &
 bash --norc --noprofile -c ' sleep 2; xfwm4 & firefox-esr & xterm -rv & xterm -rv & xhost + & xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh  '
