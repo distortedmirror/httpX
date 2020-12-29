@@ -1,6 +1,7 @@
 #yes | apt-get update
 #yes | apt-get upgrade
   apt-get install nmap
+apt-get install imagemagick
   apt-get install x11vnc
   apt-get install ncat
   apt-get install netcat
@@ -24,4 +25,4 @@ dpkg --configure -a
   export DISPLAY=:0
 #nohup Xvfb :0 -listen tcp -screen 0 800x600x24 &
 nohup Xvfb :0 -listen tcp -screen 0 1024x768x24 &
-bash --norc --noprofile -c 'export DISPLAY=:0; sleep 2; twm & firefox-esr & xterm -rv & xterm -rv & xhost + & xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh &  '
+bash --norc --noprofile -c 'export DISPLAY=:0; sleep 2; twm & firefox-esr & xterm -rv & xterm -rv & xhost + & xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh   '
