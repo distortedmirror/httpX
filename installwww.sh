@@ -16,11 +16,11 @@ apt-get install xvfb
   apt-get install cinnamon
   apt-get install x11vnc
   #apt-get install novnc
-#apt-get install kde-spectacle
+apt-get install kde-spectacle
 dpkg --configure -a
-  /etc/init.d/x11-common start
-export DISPLAY=:0
-nohup Xvfb :0 -listen tcp -screen 0 800x600x24 &
+/etc/init.d/x11-common start
+export DISPLAY=:1
+nohup Xvfb :1 -listen tcp -screen 0 800x600x24 &
 sleep 2; cinnamon & firefox-esr & xterm -rv & xterm -rv & xhost + & 
-#xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh   
-x11vnc --loop --forever &
+#xwd -root -display :1 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh   
+x11vnc -display :1 --loop --forever &
