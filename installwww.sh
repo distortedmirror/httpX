@@ -10,6 +10,7 @@
   apt-get install xterm
   apt-get install xvkbd
 #  apt-get install mwm
+apt-get install xvfb
 apt-get install xfwm4
  apt-get install x11-apps
  apt-get install x11-xserver-tools
