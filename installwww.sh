@@ -11,7 +11,7 @@
   apt-get install xvkbd
 #  apt-get install mwm
 apt-get install xvfb
-apt-get install xfce4
+printf "1\n"|apt-get install xfce4
 apt-get install lsof
 
  apt-get install x11-apps
