@@ -10,6 +10,6 @@ Xvfb :1 -listen tcp &
 sleep 3
 xterm -rv &
 mwm &
-x11vnc -display 1 --loop --forever &
+x11vnc -display :1 --loop --forever &
 sleep 4
 /usr/share/novnc/utils/launch.sh --vnc localhost:1
