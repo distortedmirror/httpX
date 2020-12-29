@@ -7,17 +7,14 @@ apt-get install imagemagick
   apt-get install netcat
   apt-get install novnc
   apt-get install xdotool
-  apt-get install xdotool
   apt-get install xterm
   apt-get install xvkbd
   apt-get install mwm
 apt-get install xvfb
 apt-get install twm 
 apt-get install lsof
-
  apt-get install x11-apps
  apt-get install x11-xserver-tools
-#apt-get install fvwm-crystal
   apt-get install firefox-esr
 #apt-get install kde-spectacle
 dpkg --configure -a
@@ -25,4 +22,4 @@ dpkg --configure -a
   export DISPLAY=:0
 #nohup Xvfb :0 -listen tcp -screen 0 800x600x24 &
 nohup Xvfb :0 -listen tcp -screen 0 1024x768x24 &
-bash --norc --noprofile -c 'export DISPLAY=:0; sleep 2; twm & firefox-esr & xterm -rv & xterm -rv & xhost + & xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh   '
+export DISPLAY=:0; sleep 2; twm & firefox-esr & xterm -rv & xterm -rv & xhost + & xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh   
