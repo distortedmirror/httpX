@@ -6,6 +6,8 @@ yes |sudo apt-get install novnc
 yes |sudo apt-get install xauth
 yes |sudo apt-get install x11vnc
 #yes |sudo apt-get install firefox-esr
+yes | sudo dpkg -i firefox*
+apt-get install --fix-broken
 export DISPLAY=:0
 Xvfb &
 sleep 3
