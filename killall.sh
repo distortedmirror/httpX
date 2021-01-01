@@ -3,6 +3,6 @@
 #sudo killall xtightvnc
 #sudo killall xterm
 sudo killall websockify
-sudo killall Xvfb
+sudo killall x11vnc 
 sudo killall websockify
-sudo killall Xvfb
+sudo killall x11vnc
