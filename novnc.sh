@@ -17,6 +17,7 @@ xhost +
 xterm -rv &
 mwm &
 export port=5901
-x11vnc -display :0 -rfbport $port --loop --forever &
+printf "x\nx\n"|vncpasswd
+x11vnc -display :0 -usepw -rfbport $port --loop --forever &
 #sleep 2
 #/usr/share/novnc/utils/launch.sh 
