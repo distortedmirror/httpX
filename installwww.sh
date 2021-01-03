@@ -14,6 +14,8 @@ apt-get install xvfb
   apt-get install firefox-esr
   apt-get install mwm
   apt-get install x11vnc
+apt-get install screengrab 
+apt-get install nautilus
   #apt-get install novnc
 #apt-get install kde-spectacle
 #dpkg --configure -a
