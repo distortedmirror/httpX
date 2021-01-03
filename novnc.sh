@@ -1,3 +1,4 @@
+apt-get update
 sudo killall x11vnc
 sudo killall websockify
 sudo killall python
@@ -6,13 +7,16 @@ yes |sudo apt-get install novnc
 yes |sudo apt-get install xauth
 yes |sudo apt-get install x11vnc
 #yes |sudo apt-get install firefox-esr
-yes | sudo dpkg -i firefox*
-yes | sudo apt-get install --fix-broken
+#yes | sudo dpkg -i firefox*
+#yes | sudo apt-get install --fix-broken
+./killall.sh
 export DISPLAY=:0
-Xvfb &
-sleep 3
+Xvfb :0 -screen :0 1280x800x24 -listen tcp -br &
+sleep 2
+xhost +
 xterm -rv &
 mwm &
-x11vnc --loop --forever &
-sleep 3
-/usr/share/novnc/utils/launch.sh 
+export port=5901
+x11vnc -display :0 -rfbport $port --loop --forever &
+#sleep 2
+#/usr/share/novnc/utils/launch.sh 
