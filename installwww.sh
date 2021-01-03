@@ -20,7 +20,7 @@ apt-get install xvfb
 /etc/init.d/x11-common start
 export DISPLAY=:0
 #nohup Xvfb :0 -listen tcp -screen 0 800x600x24 &
-nohup Xvfb :0 -listen tcp -screen 0 1024x768x8 &
+nohup Xvfb :0 -listen tcp -screen 0 1024x768x24 -br  &
 sleep 2; mwm & firefox-esr & xterm -rv & xterm -rv & xhost +  
 x11vnc -display :0 -rfbport 5901 --loop --forever 
 #xwd -root -display :0 -out screen.xwd ; convert screen.xwd screen.jpg ; ./www.sh & ./novnc.sh   

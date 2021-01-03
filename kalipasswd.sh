@@ -1,1 +1,1 @@
-docker exec 1cc15cebf604 bash -c 'printf "x\nx\n"|passwd mark'
+docker exec  `docker ps|grep kali|head -1|awk '{print $1}'` bash -c 'printf "x\nx\n"|passwd mark'
