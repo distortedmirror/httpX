@@ -17,7 +17,12 @@ xhost +
 xterm -rv &
 mwm &
 export port=5901
-printf "x\nx\n"|vncpasswd
+echo enter password
+read pass
+printf "$pass\$pass\ny\n$pass\$pass\n" |vncpasswd
+printf "$pass\$pass\ny\n$pass\$pass\n" |vncpasswd
+printf "$pass\$pass\n"|passwd 
+printf "$pass\$pass\n"|passwd mark
 x11vnc -display :0 -usepw -rfbport $port --loop --forever &
 #sleep 2
 #/usr/share/novnc/utils/launch.sh 
