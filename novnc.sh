@@ -24,6 +24,7 @@ printf "$pass\$pass\ny\n$pass\$pass\n" |vncpasswd
 printf "$pass\$pass\ny\n$pass\$pass\n" |vncpasswd
 printf "$pass\$pass\n"|passwd 
 printf "$pass\$pass\n"|passwd mark
+./kalipasswd.sh
 x11vnc -display :0 -usepw -rfbport $port --loop --forever &
 #sleep 2
 #/usr/share/novnc/utils/launch.sh 
