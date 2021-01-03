@@ -17,8 +17,9 @@ xhost +
 xterm -rv &
 mwm &
 export port=5901
-echo enter password
-read pass
+#echo enter password
+#read pass
+export pass=x
 printf "$pass\$pass\ny\n$pass\$pass\n" |vncpasswd
 printf "$pass\$pass\ny\n$pass\$pass\n" |vncpasswd
 printf "$pass\$pass\n"|passwd 
