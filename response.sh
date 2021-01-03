@@ -1,6 +1,5 @@
 #/bin/bash
-export DISPLAY=:1
-read DISPLAY
+export DISPLAY=:0
 killall xdotool
  urldecode() { : "${*//+/ }"; echo -e "${_//%/\\x}"; }
 read input
