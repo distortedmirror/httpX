@@ -1,0 +1,538 @@
+    1  cd httpX
+    2  ls
+    3  ipi neigh
+    4  ps aux
+    5  ./killall.sh 
+    6  ls
+    7  nice ./kalidockercreate.sh 
+    8  ./kalidockerattach.sh 
+    9  docker ps
+   10  ps 
+   11  docker exec `cat containerid.txt ` vncpasswd
+   12  docker exec `cat containerid.txt ` bash -c 'printf "x\n\x\n"|vncpasswd'
+   13  docker exec `cat containerid.txt ` bash -c 'printf "xxxxxxxx\n\xxxxxxxx\n"|vncpasswd'
+   14  docker exec `cat containerid.txt ` bash -c 'printf "xxxxxxxx\n\xxxxxxxx\n"|vncpasswd'
+   15  docker exec `cat containerid.txt ` bash -c 'printf "xxxxxxxx\nxxxxxxxxn"|vncpasswd'
+   16  docker exec `cat containerid.txt ` bash -c 'printf "xxxxxxxx\nxxxxxxxx\n"|vncpasswd'
+   17  docker exec `cat containerid.txt ` bash -c 'printf "xxxxxxxx\nxxxxxxxx\n"|passwd'
+   18  docker exec `cat containerid.txt ` bash -c 'printf "xxxxxxxx\nxxxxxxxx\n"|passwd mark'
+   19  ./kalisshX.sh 
+   20  clea
+   21  clear
+   22  fg
+   23  export PS1=$
+   24  clear
+   25  ls
+   26  cd httpX/
+   27  ls
+   28  ./kalisshX.sh 
+   29  ./kalisshX.sh 
+   30  clear
+   31  gcloud components install kubectl
+   32  apt-get install kubectl
+   33  apt-get update
+   34  apt-get install kubectl
+   35  gcloud auth configure-docker
+   36  #docker push gcr.io/${PROJECT_ID}/hello-app:v1
+   37  docker images
+   38  docker push gcr.io/${PROJECT_ID}/kali:version3
+   39  docker push gcr.io/${PROJECT_ID}/markbrito1975/kali:version3
+   40  docker push gcr.io/${PROJECT_ID}/markbrito1975/kali\:version3
+   41  docker push gcr.io/${PROJECT_ID}/markbrito1975/kali\:version3
+   42  docker push gcr.io/${PROJECT_ID}/kali\:version3
+   43  docker push gcr.io/markbrito1975/kali:version3
+   44  gcloud auth login
+   45  gcloud auth login > out
+   46  gcloud auth login 2> out
+   47  gcloud auth login
+   48  man bash
+   49  man tee
+   50  gcloud auth login|tee out
+   51  cat out
+   52  gcloud auth login 2>&1|tee out
+   53  cat out
+   54  cat out
+   55  gcloud auth login 2>&1|tee out
+   56  vi out
+   57  echo 'gcloud auth login 2>&1|tee out;echo Now Download out.html; mv out out.html' > httpX/gcloudauth.sh
+   58  ls
+   59  cd httpX
+   60  ./checkin.sh 
+   61  gcloud auth configure-docker
+   62  echo 'gcloud auth configure-docker'
+   63  echo 'gcloud auth configure-docker' >gcloudauth.sh
+   64  chmod a+rx *.sh
+   65  history
+   66  history|grep push
+   67  docker push gcr.io/markbrito1975/kali:version3
+   68  docker images
+   69  docker push gcr.io/markbrito1975/kali:version3
+   70  set |grep PROJ
+   71  echo $PROJECT_ID
+   72  docker push gcr.io/markbrito1975/kali:version3
+   73  docker push gcr.io/intricate-muse-300623/kali:version3
+   74  docker push gcr.io/intricate-muse-300623/markbrito1975:kali
+   75  docker images
+   76  docker push gcr.io/intricate-muse-300623/markbrito1975/kali:version3
+   77  docker push gcr.io/intricate-muse-300623/markbrito1975:kali\#version3
+   78  docker push gcr.io/intricate-muse-300623/markbrito1975:kali
+   79  docker push gcr.io/markbrito1975/kali:version3
+   80  docker
+   81  docker|less
+   82  docker 2>&1|less
+   83  docker config
+   84  docker config  ls
+   85  docker swarm join
+   86  docker services
+   87  docker service
+   88  docker service ls
+   89  docker service inspect
+   90  docker swarm init
+   91  docker config  ls
+   92  docker swarem join-token manager
+   93  docker swarm join-token manager
+   94  docker swarm join-token manager|tail -2
+   95  `docker swarm join-token manager|tail -2`
+   96  docker swarm leave
+   97  docker swarem
+   98  docker swarm
+   99  docker swarm join-token
+  100  docker swarm join-token worker
+  101  docker swarm join-token worker|taili -2
+  102  docker swarm join-token worker|tail -2
+  103  `docker swarm join-token worker|tail -2`
+  104  docker swarm leave
+  105  `docker swarm join-token worker|tail -2` > dockerswarmjoin.sh
+  106  echo `docker swarm join-token worker|tail -2` > dockerswarmjoin.sh
+  107  ls
+  108  docker
+  109  history |grep doc
+  110  history |grep doc|gre 1
+  111  history |grep doc|grep 1
+  112  docker 2>&1|less
+  113  docker engine
+  114  docker engine check
+  115  docker 2>&1|less
+  116  docker service
+  117  docker service ls
+  118  docker service create
+  119  docker service create markbrito1975/kali --help
+  120  docker service create markbrito1975/kali --help
+  121  docker service create markbrito1975/kali
+  122  bg
+  123  docker service ls
+  124  fg
+  125  fg
+  126  docker service ps
+  127  docker service ls
+  128  docker service --help
+  129  docker service --help rm kvi1uf3shdg8
+  130  docker service rm kvi1uf3shdg8
+  131  docker service ls
+  132  docker service rm v9wbqa9v9u3y
+  133  docker service rm 15c021rbuaw1
+  134  history
+  135  docker service ls
+  136  docker service rm 15c021rbuaw1
+  137  docker service rm l5c021rbuaw1
+  138  history
+  139  docker service create markbrito1975/kali:version3
+  140  docker service
+  141  docker service
+  142  docker service ls
+  143  docker service inspect
+  144  docker service inspect great_darwin
+  145  docker service inspect great_darwin|less
+  146  docker service
+  147* docker service ps 
+  148  docker service ps  great_darwin
+  149  docker service rm w4r0xmjruuox
+  150  docker service rm w4r0xmjruuox
+  151* 
+  152  docker service rm --help
+  153  docker service update
+  154  docker service
+  155  docker service ps
+  156  docker service ps great_darwin
+  157  docker service ps rm \_ great_darwin.1
+  158  docker service ps rm '\_ great_darwin.1'
+  159  docker service ps rm evqyu92dh69f
+  160  docker ps
+  161  docker --help 2 >&1 |less
+  162  docker node
+  163  docker node ls
+  164  docker swarm
+  165  docker node
+  166  docker node ps
+  167  docker node ls
+  168  docker node
+  169  docker node ls inspect trd51u5izrrd3wni3q0as24ei
+  170  docker node inspect trd51u5izrrd3wni3q0as24ei
+  171  docker node inspect trd51u5izrrd3wni3q0as24ei|less
+  172  history >dockerhistory.txt
+  173  ssh 172.17.0.4
+  174  docker node inspect trd51u5izrrd3wni3q0as24ei >dockernodeinspect.txt
+  175  emacs
+  176  emacs dockernodeinspect.txt 
+  177  cat ~/.ssh/known_hosts 
+  178  cat /etc/ssl/certs/TWCA_Root_Certification_Authority.pem 
+  179  fg
+  180  ls
+  181  docker node
+  182  docker node update
+  183  docker node update --help
+  184  docker node
+  185  docker swarm
+  186  docker service
+  187  docker service update
+  188  docker service update --help
+  189  docker service update|less
+  190  docker service update 2 >&1 |less
+  191  man docker service
+  192  man docker service update
+  193  man docker-service-update
+  194  docker service update
+  195  man docker-service-update
+  196  docker service update --publish-add 
+  197  docker service update --publish-add 22 
+  198  docker service ps
+  199  history |grep service
+  200  docker service ps great_darwin
+  201  docker service update --publish-add 22 great_darwin
+  202  ssh cs-240669550159-default-default-hk2gh
+  203  ssh mark@cs-240669550159-default-default-hk2gh
+  204  man docker-service-update
+  205  docker service
+  206  docker service inspect great_darwin
+  207  docker service inspect great_darwin|less
+  208  ./kalisshX.sh 
+  209  cat kalisshX.sh 
+  210  ssh -p 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key.pub ssh_host_rsa_key.pub
+  211  scp -p 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key.pub ssh_host_rsa_key.pub
+  212  scp -p 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key.pub 
+  213  scp -p 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key.pub 
+  214  scp -p 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key.pub 
+  215  man cp
+  216  man scp
+  217  scp -P 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key.pub ssh_host_rsa_key.pub
+  218  history |grep ssh
+  219  ssh mark@cs-240669550159-default-default-hk2gh
+  220  ssh -i ssh_host_rsa_key.pub mark@cs-240669550159-default-default-hk2gh
+  221  man ssh
+  222  history |grep servi
+  223  docker service update --publish-add 80 great_darwin
+  224  docker service update --publish-add 8080 great_darwin
+  225  history |grep cs
+  226  ssh -i ssh_host_rsa_key.pub mark@cs-240669550159-default-default-hk2gh
+  227  scp -P 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key.pub ssh_host_rsa_key.pub
+  228  scp -P 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key ssh_host_rsa_key
+  229  scp -P 2222 mark@127.0.0.1:/etc/ssh/ssh_host_rsa_key ssh_host_rsa_key
+  230  nc cs-240669550159-default-default-hk2gh 80
+  231  apt-get install nc
+  232  nc cs-240669550159-default-default-hk2gh 80
+  233  apt-get install netcat
+  234  nc cs-240669550159-default-default-hk2gh 80
+  235  nc cs-240669550159-default-default-hk2gh 8080
+  236  nc cs-240669550159-default-default-hk2gh 8080
+  237  ssh -i ssh_host_rsa_key.pub mark@cs-240669550159-default-default-hk2gh
+  238  ssh -i ssh_host_rsa_key.pub root@cs-240669550159-default-default-hk2gh
+  239  history |grep insp
+  240  docker service inspect great_darwin
+  241  docker service inspect great_darwin|less
+  242  docker engine
+  243  docker engine check
+  244  docker swarm
+  245  docker node
+  246* docker node inspect 
+  247  history |grep insp
+  248  docker node inspect trd51u5izrrd3wni3q0as24ei|less
+  249  docker node inspect trd51u5izrrd3wni3q0as24ei
+  250  nc 172.17.0.4 8080
+  251  history |grep cs
+  252  nslookup cs-240669550159-default-default-hk2gh
+  253  ping cs-240669550159-default-default-hk2gh
+  254  ip neigh
+  255  w
+  256  docker node inspect trd51u5izrrd3wni3q0as24ei
+  257  nc 172.17.0.4 8080
+  258  nc 172.17.0.4 2377
+  259  nc 172.17.0.4 2377
+  260  nmap
+  261  apt-get install nmap
+  262  nmap 172.17.0.4 
+  263  history |grep publi
+  264  docker service updaate --publish-add 5901 great_darwin
+  265  docker service update --publish-add 5901 great_darwin
+  266  cat novnc.sh
+  267  export DISPLAY=:0
+  268  Xvfb :0
+  269  xhost +
+  270  xterm -rv &
+  271  mwm &
+  272  x11vnc --loop --forever &
+  273  apt-get install x11vnc
+  274  apt-get install xvncviewer
+  275  apt-get install xtightvncviewer
+  276  apt-get install novnc
+  277  /usr/share/novnc/utils/launch.sh --help
+  278  /usr/share/novnc/utils/launch.sh 
+  279  /usr/share/novnc/utils/launch.sh --listen 7080
+  280  hsitory
+  281  hostname
+  282  history|grep cs
+  283  hostname
+  284  hsitory
+  285  ps aux |grep lau
+  286  ps axjf|less
+  287  docker servie
+  288  docke rservic
+  289  docker service
+  290  docker service logs
+  291  docker service logs great_darwin
+  292  docker service logs great_darwin|less
+  293  docker service
+  294  docker service ls
+  295  docker service inspect 9jwmbbafyghx
+  296  docker service inspect 9jwmbbafyghx|less
+  297  docker service inspect 9jwmbbafyghx|grep Netwo
+  298  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'
+  299  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|sed 's/".+//g'
+  300  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|sed 's/\".+//g'
+  301  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|sed 's/wz9.+/wz9/g'
+  302  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|sed 's/wz9.+/wz9/g'
+  303  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|perl -pe 's/wz9.+/wz9/g'
+  304  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|perl -pe 's/wz9.+/wz9/g'
+  305  history
+  306  docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|perl -pe 's/wz9.+/wz9/g'
+  307  ping `docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|perl -pe 's/wz9.+/wz9/g'`
+  308  docker services ps
+  309  docker service ps
+  310  docker service 
+  311* 
+  312  docker ps  `docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|perl -pe 's/wz9.+/wz9/g'`
+  313  docker ps  `docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|perl -pe 's/wz9.+/wz9/g'`
+  314  docker service ps  `docker service inspect 9jwmbbafyghx|grep Netwo|sed 's/.*"smd/smd/g'|perl -pe 's/wz9.+/wz9/g'`
+  315  docker service inspect 9jwmbbafyghx|less
+  316  ssh mark@10.0.0.3 
+  317  ping 10.0.0.3 
+  318  route
+  319  arp -a
+  320  ping docker0
+  321  docker service inspect 9jwmbbafyghx|less
+  322  ssh -p 30006 mark@10.0.0.3 
+  323  ssh -p 30006 mark@localhost
+  324  docker
+  325  docker ps
+  326  docker container
+  327  docker ps
+  328  docker container
+  329  docker container ls
+  330  docker ps
+  331  docker container ps
+  332  dcoker container
+  333  docker container
+  334  docker container inspect
+  335  docker container
+  336  docker container ls
+  337  docker container inspect trusting_franklin
+  338  docker container inspect trusting_franklin|less
+  339  ssh -p 30006 mark@localhost
+  340  ssh -p 2222 mark@172.18.0.2
+  341  ssh -p 22 mark@172.18.0.2
+  342  lsof -i tcp
+  343  lsof -i tcp|grep LIST
+  344  killall websockify
+  345  killall websockify
+  346  /usr/share/novnc/utils/launch --help
+  347  /usr/share/novnc/utils/launch.sh --help
+  348  /usr/share/novnc/utils/launch.sh --listen 5901
+  349  #/usr/share/novnc/utils/launch.sh --vnc 172.0.0.3 5901
+  350  history
+  351  /usr/share/novnc/utils/launch.sh --listen 172.18.0.2:5901
+  352  history
+  353  /usr/share/novnc/utils/launch.sh --vnc 172.18.0.2:5901
+  354  killall websockify
+  355  killall websockify
+  356  lsof -i tcp
+  357  kill -9 14733
+  358  kill -9 147733
+  359  lsof -i tcp
+  360  /usr/share/novnc/utils/launch.sh --vnc 172.18.0.2:5901
+  361  kill -9 147733
+  362  killall websockify
+  363  ls
+  364  docker ps
+  365  docker 
+  366  docker |more
+  367  docker 2>&1 |more
+  368  docker system
+  369  docker system df
+  370  docker events
+  371  docker info
+  372  docker info|less
+  373  docker network
+  374  docker network ls
+  375  docker network inspect 270002c95f8a
+  376  docker network inspect 270002c95f8a|less
+  377  docker network 
+  378  docker network  ls
+  379  docker swarm
+  380  docker swarm ca
+  381  docker
+  382  docker swarm
+  383  docker swarm init
+  384  docker update
+  385  docker swarm update
+  386  docker
+  387  docker config
+  388  docker config ls
+  389  docker config create
+  390  docker config create --help
+  391  docker config create --template-driver config
+  392  docker config create --template-driver 
+  393  docker config create -l
+  394  docker config 
+  395  docker config 
+  396  docker server
+  397  docker network  ls
+  398  docker engine
+  399  docker engine activate
+  400  docker engine update
+  401  docker 
+  402  docker 2>&1|less
+  403  docker context
+  404  docker context ls
+  405  docker context ls
+  406  docker 2>&1|less
+  407  docker builder
+  408  docker builder
+  409  docker 2>&1|less
+  410  docker port
+  411  docker container ls
+  412  docker port trusting_franklin
+  413  docker 2>&1|less
+  414  docker node
+  415  docker node promote trusting_franklin
+  416  docker node ls
+  417  docker node ps trusting_franklin
+  418  docker node ps trd51u5izrrd3wni3q0as24ei
+  419* docker node in
+  420  docker node inspect trd51u5izrrd3wni3q0as24ei
+  421  docker node inspect trd51u5izrrd3wni3q0as24ei|less
+  422  qip a
+  423  ip a
+  424  ip a|less
+  425  arp -a
+  426  ps au
+  427  ls
+  428  df
+  429  lsof -i tcp
+  430  ls
+  431  ./killall.sh 
+  432  docker ps
+  433  docker ls
+  434  docker stop d0fcd07e51b6
+  435  docker ps
+  436  docker continer
+  437  docker container
+  438  docker container ls
+  439  docker container ps
+  440  docker ps
+  441  docker images
+  442  docker 
+  443  docker ps
+  444  docker node
+  445  docker node update
+  446  docker node update --help
+  447  docker service
+  448  docker service ps
+  449  docker service ls
+  450  docker service ps great_darwin
+  451  docker service rm qvn2lnjubqe4
+  452  docker service
+  453  docker service ls
+  454  docker servic inspect great_darwin
+  455  docker servic inspect 9jwmbbafyghx
+  456  docker service inspect 9jwmbbafyghx
+  457  docker service inspect 9jwmbbafyghx|less
+  458  docker service inspect great_darwin
+  459  history > dockerhistory.txt 
+  460  ls
+  461  docker
+  462  docker service
+  463  docker service  update --help
+  464  docker service  update --help|less
+  465  ls
+  466  man docker-service-update
+  467  docker service ps
+  468  docker service ls
+  469  docker service ps great_darwin
+  470  docker ps
+  471  docker images
+  472  docker 
+  473  docker |less
+  474  docker service update --init=true great_darwin
+  475  man docker-service-update
+  476  docker ps
+  477  docker
+  478  docker ps
+  479  docker restart eebe2896fce3
+  480  docker ps
+  481  lsof 
+  482  docker ls
+  483  docker ls
+  484  lsof -i tcp
+  485  docker ps
+  486  ssh -p 22 mark@172.18.0.2
+  487  docker ps se
+  488  docker service ls
+  489  docker service inspect 9jwmbbafyghx
+  490  docker service inspect 9jwmbbafyghx|less
+  491  nc 172.17.0.4 2377
+  492  nc 172.17.0.4 8080
+  493* 
+  494  nc 172.17.0.4 22
+  495  ssh mark@172.17.0.4 
+  496  ssh -i ssh_host_rsa_key.pub mark@172.17.0.4 
+  497  history|grep ssh
+  498  ssh -p 22 mark@172.18.0.2
+  499  ssh -p 2222 mark@172.18.0.2
+  500  ssh -p 30006 mark@172.18.0.2
+  501  ssh -p 30006 mark@localhost
+  502  history|grep ssh
+  503  ssh mark@10.0.0.3 
+  504  docker ps
+  505  docker service ls
+  506  docker service ps
+  507  docker service ps 9jwmbbafyghx
+  508  docker service inspect 9jwmbbafyghx
+  509  docker service inspect 9jwmbbafyghx|less
+  510  ssh mark@10.0.0.3 
+  511  ssh mark@10.0.0.3 
+  512  ssh -p 2222 mark@10.0.0.3 
+  513  history |grep ssh
+  514  history |grep ssh|less
+  515  docker node
+  516  docker node ls
+  517  docker node ps
+  518  docker node inspect 3oblx3mtql47
+  519  docker node inspect 3ob1x3mtq147
+  520  docker node inspect great_darwin
+  521  docker node inspect great_darwin.1
+  522  docker node ls
+  523  docker node inspect trd51u5izrrd3wni3q0as24ei
+  524  docker node inspect trd51u5izrrd3wni3q0as24ei|less
+  525  docker node inspect trd51u5izrrd3wni3q0as24ei|grep cs
+  526  hostname
+  527  hsitory |grep 172
+  528  history |grep 172
+  529  docker node inspect trd51u5izrrd3wni3q0as24ei|grep cs
+  530  docker node inspect trd51u5izrrd3wni3q0as24ei|grep 172
+  531  ssh mark@172.17.0.4
+  532  nc 172.17.0.4 8080
+  533  nc 172.17.0.4 6080
+  534  nc 172.17.0.4 80
+  535  nc 172.17.0.4 25
+  536  nc 172.17.0.4 60000
+  537  nc 172.17.0.4 6000
+  538  history > dockerhistory.txt 
