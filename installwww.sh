@@ -2,18 +2,20 @@ yes | apt-get update
 #yes | apt-get upgrade
 apt-get install lsof
   apt-get install nmap
-#apt-get install imagemagick
+apt-get install imagemagick
   apt-get install ncat
   apt-get install netcat
 apt-get install xvfb
   apt-get install xdotool
   apt-get install xterm
 #  apt-get install xvkbd
-# apt-get install x11-apps
+ apt-get install x11-apps
  apt-get install x11-xserver-tools
   apt-get install firefox-esr
   apt-get install mwm
   apt-get install x11vnc
+apt-get install screengrab 
+apt-get install nautilus
   #apt-get install novnc
 #apt-get install kde-spectacle
 #dpkg --configure -a
