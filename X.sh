@@ -1,0 +1,1 @@
+docker run -i -t -p 127.0.0.1:6080:6080/tcp  -p 127.0.0.1:8080:8080/tcp --privileged kalilinux/kali bash -c "export DISPLAY=:0;apt-get update;apt-get install -y xvfb xdotool x11-apps xterm ncat netcat imagemagick mwm  x11vnc novnc xvkbd firefox-esr ;Xvfb :0 &;xterm -rv & mwm & xvkbd & firefox-esr"
